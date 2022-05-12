@@ -1,0 +1,560 @@
+local ScreenGui = Instance.new("ScreenGui")
+local DaHood = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local CloseDahood = Instance.new("TextButton")
+local UICorner_2 = Instance.new("UICorner")
+local SwagMode = Instance.new("TextButton")
+local UICorner_3 = Instance.new("UICorner")
+local Faded = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local Destiny = Instance.new("TextButton")
+local UICorner_5 = Instance.new("UICorner")
+local TextLabel = Instance.new("TextLabel")
+local UICorner_6 = Instance.new("UICorner")
+local SwagModeCrash = Instance.new("TextButton")
+local UICorner_7 = Instance.new("UICorner")
+local Adminfly = Instance.new("TextButton")
+local UICorner_8 = Instance.new("UICorner")
+local UICorner_9 = Instance.new("UICorner")
+local Open = Instance.new("Frame")
+local Open_2 = Instance.new("TextButton")
+local MainFrame = Instance.new("Frame")
+local UICorner_10 = Instance.new("UICorner")
+local CloseMain = Instance.new("TextButton")
+local UICorner_11 = Instance.new("UICorner")
+local Dahood = Instance.new("TextButton")
+local UICorner_12 = Instance.new("UICorner")
+local Random = Instance.new("TextButton")
+local UICorner_13 = Instance.new("UICorner")
+local Random_2 = Instance.new("Frame")
+local UICorner_14 = Instance.new("UICorner")
+local CloseMain_2 = Instance.new("TextButton")
+local UICorner_15 = Instance.new("UICorner")
+local TitanWarfare = Instance.new("TextButton")
+local UICorner_16 = Instance.new("UICorner")
+local PhantomForces = Instance.new("TextButton")
+local UICorner_17 = Instance.new("UICorner")
+local Bedwars = Instance.new("TextButton")
+local UICorner_18 = Instance.new("UICorner")
+local Infiniteyield = Instance.new("TextButton")
+local UICorner_19 = Instance.new("UICorner")
+local Arsenal = Instance.new("TextButton")
+local UICorner_20 = Instance.new("UICorner")
+local Murdermystery2 = Instance.new("TextButton")
+local UICorner_21 = Instance.new("UICorner")
+
+--Properties:
+
+ScreenGui.Parent = game.CoreGui
+
+DaHood.Name = "DaHood"
+DaHood.Parent = ScreenGui
+DaHood.BackgroundColor3 = Color3.fromRGB(27, 27, 27)
+DaHood.Position = UDim2.new(-0.00455580885, 0, 0.541104317, 0)
+DaHood.Size = UDim2.new(0, 680, 0, 374)
+DaHood.Visible = false
+
+UICorner.CornerRadius = UDim.new(0, 30)
+UICorner.Parent = DaHood
+
+CloseDahood.Name = "Close Da hood"
+CloseDahood.Parent = DaHood
+CloseDahood.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+CloseDahood.Position = UDim2.new(0.907352984, 0, 0, 0)
+CloseDahood.Size = UDim2.new(0, 63, 0, 50)
+CloseDahood.Font = Enum.Font.SourceSans
+CloseDahood.Text = "X"
+CloseDahood.TextColor3 = Color3.fromRGB(0, 0, 0)
+CloseDahood.TextScaled = true
+CloseDahood.TextSize = 14.000
+CloseDahood.TextWrapped = true
+
+UICorner_2.CornerRadius = UDim.new(0, 30)
+UICorner_2.Parent = CloseDahood
+
+SwagMode.Name = "SwagMode"
+SwagMode.Parent = DaHood
+SwagMode.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+SwagMode.Position = UDim2.new(0.714705884, 0, 0.197860986, 0)
+SwagMode.Size = UDim2.new(0, 143, 0, 50)
+SwagMode.Font = Enum.Font.SourceSans
+SwagMode.Text = "SwagMode"
+SwagMode.TextColor3 = Color3.fromRGB(0, 0, 0)
+SwagMode.TextScaled = true
+SwagMode.TextSize = 14.000
+SwagMode.TextWrapped = true
+SwagMode.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/lerkermer/lua-projects/master/SwagModeV002'))()
+end)
+
+UICorner_3.CornerRadius = UDim.new(0, 25)
+UICorner_3.Parent = SwagMode
+
+Faded.Name = "Faded"
+Faded.Parent = DaHood
+Faded.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Faded.Position = UDim2.new(0.714705884, 0, 0.35561499, 0)
+Faded.Size = UDim2.new(0, 143, 0, 50)
+Faded.Font = Enum.Font.SourceSans
+Faded.Text = "Faded"
+Faded.TextColor3 = Color3.fromRGB(0, 0, 0)
+Faded.TextScaled = true
+Faded.TextSize = 14.000
+Faded.TextWrapped = true
+Faded.MouseButton1Down:connect(function()
+	_G.Toggles = "V" -- You can put any keybind
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/NighterEpic/Faded/main/YesEpic", true))()
+end)
+
+UICorner_4.CornerRadius = UDim.new(0, 25)
+UICorner_4.Parent = Faded
+
+Destiny.Name = "Destiny"
+Destiny.Parent = DaHood
+Destiny.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Destiny.Position = UDim2.new(0.714705884, 0, 0.513368964, 0)
+Destiny.Size = UDim2.new(0, 143, 0, 50)
+Destiny.Font = Enum.Font.SourceSans
+Destiny.Text = "Destiny"
+Destiny.TextColor3 = Color3.fromRGB(0, 0, 0)
+Destiny.TextScaled = true
+Destiny.TextSize = 14.000
+Destiny.TextWrapped = true
+Destiny.MouseButton1Down:connect(function()
+	--BROUGHT TO YOU BY RSCRIPTS.NET!--
+
+	-- / / Main Script | Destiny #1 | Da Hood
+	-- / / V to open and close
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/compwnter/destiny/main/loader'))();
+end)
+
+UICorner_5.CornerRadius = UDim.new(0, 25)
+UICorner_5.Parent = Destiny
+
+TextLabel.Parent = DaHood
+TextLabel.BackgroundColor3 = Color3.fromRGB(27, 27, 27)
+TextLabel.Position = UDim2.new(0.18235293, 0, 0, 0)
+TextLabel.Size = UDim2.new(0, 431, 0, 33)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "Da Hood Hub"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextWrapped = true
+
+UICorner_6.CornerRadius = UDim.new(0, 30)
+UICorner_6.Parent = TextLabel
+
+SwagModeCrash.Name = "SwagMode Crash"
+SwagModeCrash.Parent = DaHood
+SwagModeCrash.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+SwagModeCrash.Position = UDim2.new(0.486764729, 0, 0.197860986, 0)
+SwagModeCrash.Size = UDim2.new(0, 143, 0, 50)
+SwagModeCrash.Font = Enum.Font.SourceSans
+SwagModeCrash.Text = "SwagMode Crash"
+SwagModeCrash.TextColor3 = Color3.fromRGB(0, 0, 0)
+SwagModeCrash.TextScaled = true
+SwagModeCrash.TextSize = 14.000
+SwagModeCrash.TextWrapped = true
+SwagModeCrash.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/lerkermer/lua-projects/master/SuperCustomServerCrasher'))()
+end)
+
+UICorner_7.CornerRadius = UDim.new(0, 25)
+UICorner_7.Parent = SwagModeCrash
+
+Adminfly.Name = "Admin fly"
+Adminfly.Parent = DaHood
+Adminfly.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Adminfly.Position = UDim2.new(0.486764729, 0, 0.35561499, 0)
+Adminfly.Size = UDim2.new(0, 143, 0, 50)
+Adminfly.Font = Enum.Font.SourceSans
+Adminfly.Text = "Admin Fly"
+Adminfly.TextColor3 = Color3.fromRGB(0, 0, 0)
+Adminfly.TextScaled = true
+Adminfly.TextSize = 14.000
+Adminfly.TextWrapped = true
+Adminfly.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/22kristina/swag/main/admin_fly'))()
+end)
+
+UICorner_8.CornerRadius = UDim.new(0, 25)
+UICorner_8.Parent = Adminfly
+
+Open.Name = "Open"
+Open.Parent = ScreenGui
+Open.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Open.Position = UDim2.new(0.930903614, 0, 0.460122675, 0)
+Open.Size = UDim2.new(0, 100, 0, 26)
+
+Open_2.Name = "Open"
+Open_2.Parent = Open
+Open_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Open_2.Size = UDim2.new(0, 91, 0, 26)
+Open_2.Font = Enum.Font.SourceSans
+Open_2.Text = "Open"
+Open_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+Open_2.TextScaled = true
+Open_2.TextSize = 14.000
+Open_2.TextWrapped = true
+
+MainFrame.Name = "MainFrame"
+MainFrame.Parent = ScreenGui
+MainFrame.BackgroundColor3 = Color3.fromRGB(27, 27, 27)
+MainFrame.Position = UDim2.new(-0.00455580885, 0, 0.541104317, 0)
+MainFrame.Size = UDim2.new(0, 680, 0, 374)
+MainFrame.Visible = false
+
+UICorner_10.CornerRadius = UDim.new(0, 30)
+UICorner_10.Parent = MainFrame
+
+CloseMain.Name = "Close Main"
+CloseMain.Parent = MainFrame
+CloseMain.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+CloseMain.Position = UDim2.new(0.907352984, 0, 0, 0)
+CloseMain.Size = UDim2.new(0, 63, 0, 50)
+CloseMain.Font = Enum.Font.SourceSans
+CloseMain.Text = "X"
+CloseMain.TextColor3 = Color3.fromRGB(0, 0, 0)
+CloseMain.TextScaled = true
+CloseMain.TextSize = 14.000
+CloseMain.TextWrapped = true
+
+UICorner_11.CornerRadius = UDim.new(0, 30)
+UICorner_11.Parent = CloseMain
+
+Dahood.Name = "Da hood"
+Dahood.Parent = MainFrame
+Dahood.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Dahood.Position = UDim2.new(0.792647064, 0, 0.235294119, 0)
+Dahood.Size = UDim2.new(0, 120, 0, 50)
+Dahood.Font = Enum.Font.SourceSans
+Dahood.Text = "Da hood"
+Dahood.TextColor3 = Color3.fromRGB(0, 0, 0)
+Dahood.TextScaled = true
+Dahood.TextSize = 14.000
+Dahood.TextWrapped = true
+
+UICorner_12.CornerRadius = UDim.new(0, 25)
+UICorner_12.Parent = Dahood
+
+Random.Name = "Random"
+Random.Parent = MainFrame
+Random.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Random.Position = UDim2.new(0.792647064, 0, 0.395721912, 0)
+Random.Size = UDim2.new(0, 120, 0, 50)
+Random.Font = Enum.Font.SourceSans
+Random.Text = "Random"
+Random.TextColor3 = Color3.fromRGB(0, 0, 0)
+Random.TextScaled = true
+Random.TextSize = 14.000
+Random.TextWrapped = true
+
+UICorner_13.CornerRadius = UDim.new(0, 25)
+UICorner_13.Parent = Random
+
+Random_2.Name = "Random"
+Random_2.Parent = ScreenGui
+Random_2.BackgroundColor3 = Color3.fromRGB(27, 27, 27)
+Random_2.Position = UDim2.new(-0.00455580885, 0, 0.541104317, 0)
+Random_2.Size = UDim2.new(0, 680, 0, 374)
+Random_2.Visible = false
+
+UICorner_14.CornerRadius = UDim.new(0, 30)
+UICorner_14.Parent = Random_2
+
+CloseMain_2.Name = "Close Main"
+CloseMain_2.Parent = Random_2
+CloseMain_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+CloseMain_2.Position = UDim2.new(0.907352984, 0, 0, 0)
+CloseMain_2.Size = UDim2.new(0, 63, 0, 50)
+CloseMain_2.Font = Enum.Font.SourceSans
+CloseMain_2.Text = "X"
+CloseMain_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+CloseMain_2.TextScaled = true
+CloseMain_2.TextSize = 14.000
+CloseMain_2.TextWrapped = true
+
+UICorner_15.CornerRadius = UDim.new(0, 30)
+UICorner_15.Parent = CloseMain_2
+
+TitanWarfare.Name = "Titan Warfare"
+TitanWarfare.Parent = Random_2
+TitanWarfare.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TitanWarfare.Position = UDim2.new(0.792647064, 0, 0.235294119, 0)
+TitanWarfare.Size = UDim2.new(0, 120, 0, 50)
+TitanWarfare.Font = Enum.Font.SourceSans
+TitanWarfare.Text = "Titan Warfare"
+TitanWarfare.TextColor3 = Color3.fromRGB(0, 0, 0)
+TitanWarfare.TextScaled = true
+TitanWarfare.TextSize = 14.000
+TitanWarfare.TextWrapped = true
+TitanWarfare.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/SealboyDiscord/Ro-Flux/main/TitanWarfare.lua"))()
+end)
+
+UICorner_16.CornerRadius = UDim.new(0, 25)
+UICorner_16.Parent = TitanWarfare
+
+PhantomForces.Name = "Phantom Forces"
+PhantomForces.Parent = Random_2
+PhantomForces.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PhantomForces.Position = UDim2.new(0.792647064, 0, 0.393048108, 0)
+PhantomForces.Size = UDim2.new(0, 120, 0, 50)
+PhantomForces.Font = Enum.Font.SourceSans
+PhantomForces.Text = "Phantom Forces"
+PhantomForces.TextColor3 = Color3.fromRGB(0, 0, 0)
+PhantomForces.TextScaled = true
+PhantomForces.TextSize = 14.000
+PhantomForces.TextWrapped = true
+PhantomForces.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://projectevo.xyz/script/loader.lua"))()
+end)
+
+UICorner_17.CornerRadius = UDim.new(0, 25)
+UICorner_17.Parent = PhantomForces
+
+Bedwars.Name = "Bedwars"
+Bedwars.Parent = Random_2
+Bedwars.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Bedwars.Position = UDim2.new(0.598529398, 0, 0.393048108, 0)
+Bedwars.Size = UDim2.new(0, 120, 0, 50)
+Bedwars.Font = Enum.Font.SourceSans
+Bedwars.Text = "Bedwars"
+Bedwars.TextColor3 = Color3.fromRGB(0, 0, 0)
+Bedwars.TextScaled = true
+Bedwars.TextSize = 14.000
+Bedwars.TextWrapped = true
+Bedwars.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()
+end)
+
+UICorner_18.CornerRadius = UDim.new(0, 25)
+UICorner_18.Parent = Bedwars
+
+Infiniteyield.Name = "Infinite yield"
+Infiniteyield.Parent = Random_2
+Infiniteyield.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Infiniteyield.Position = UDim2.new(0.598529398, 0, 0.235294119, 0)
+Infiniteyield.Size = UDim2.new(0, 120, 0, 50)
+Infiniteyield.Font = Enum.Font.SourceSans
+Infiniteyield.Text = "Infinite yield"
+Infiniteyield.TextColor3 = Color3.fromRGB(0, 0, 0)
+Infiniteyield.TextScaled = true
+Infiniteyield.TextSize = 14.000
+Infiniteyield.TextWrapped = true
+Infiniteyield.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Doran342545345/The-hub-scripts/main/Infinite%20yield"))()
+end)
+
+UICorner_19.CornerRadius = UDim.new(0, 25)
+UICorner_19.Parent = Infiniteyield
+
+Arsenal.Name = "Arsenal"
+Arsenal.Parent = Random_2
+Arsenal.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Arsenal.Position = UDim2.new(0.792647064, 0, 0.561497331, 0)
+Arsenal.Size = UDim2.new(0, 120, 0, 50)
+Arsenal.Font = Enum.Font.SourceSans
+Arsenal.Text = "Arsenal"
+Arsenal.TextColor3 = Color3.fromRGB(0, 0, 0)
+Arsenal.TextScaled = true
+Arsenal.TextSize = 14.000
+Arsenal.TextWrapped = true
+Arsenal.MouseButton1Down:connect(function()
+	--BROUGHT TO YOU BY RSCRIPTS.NET!--
+
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/HonestlyDex/DexHub/main/Init"))()
+end)
+
+UICorner_20.CornerRadius = UDim.new(0, 25)
+UICorner_20.Parent = Arsenal
+
+Murdermystery2.Name = "Murder mystery 2"
+Murdermystery2.Parent = Random_2
+Murdermystery2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Murdermystery2.Position = UDim2.new(0.598529398, 0, 0.561497331, 0)
+Murdermystery2.Size = UDim2.new(0, 120, 0, 50)
+Murdermystery2.Font = Enum.Font.SourceSans
+Murdermystery2.Text = "Murder mystery 2"
+Murdermystery2.TextColor3 = Color3.fromRGB(0, 0, 0)
+Murdermystery2.TextScaled = true
+Murdermystery2.TextSize = 14.000
+Murdermystery2.TextWrapped = true
+Murdermystery2.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Ethanoj1/EclipseMM2/master/Script", true))()
+end)
+
+UICorner_21.CornerRadius = UDim.new(0, 25)
+UICorner_21.Parent = Murdermystery2
+
+-- Scripts:
+
+local function ORCAKO_fake_script() -- CloseDahood.LocalScript 
+	local script = Instance.new('LocalScript', CloseDahood)
+
+	local frame = script.Parent.Parent.Parent.DaHood
+	local open = true
+	
+	script.Parent.MouseButton1Down:Connect(function()
+		if frame.Visible == false then
+			frame.Visible = true
+		else frame.Visible = false
+		end
+	end)
+end
+coroutine.wrap(ORCAKO_fake_script)()
+local function HHZJQ_fake_script() -- Open_2.LocalScript 
+	local script = Instance.new('LocalScript', Open_2)
+
+	local frame = script.Parent.Parent.Parent.MainFrame
+	local open = true
+	
+	script.Parent.MouseButton1Down:Connect(function()
+		if frame.Visible == false then
+			frame.Visible = true
+		else frame.Visible = false
+		end
+	end)
+end
+coroutine.wrap(HHZJQ_fake_script)()
+local function QZAKKIA_fake_script() -- CloseMain.LocalScript 
+	local script = Instance.new('LocalScript', CloseMain)
+
+	local frame = script.Parent.Parent.Parent.MainFrame
+	local open = true
+	
+	script.Parent.MouseButton1Down:Connect(function()
+		if frame.Visible == false then
+			frame.Visible = true
+		else frame.Visible = false
+		end
+	end)
+end
+coroutine.wrap(QZAKKIA_fake_script)()
+local function KKGBMU_fake_script() -- Dahood.LocalScript 
+	local script = Instance.new('LocalScript', Dahood)
+
+	local frame = script.Parent.Parent.Parent.DaHood
+	local open = true
+	
+	script.Parent.MouseButton1Down:Connect(function()
+		if frame.Visible == false then
+			frame.Visible = true
+		else frame.Visible = false
+		end
+	end)
+end
+coroutine.wrap(KKGBMU_fake_script)()
+local function TKNNO_fake_script() -- Random.LocalScript 
+	local script = Instance.new('LocalScript', Random)
+
+	local frame = script.Parent.Parent.Parent.Random
+	local open = true
+	
+	script.Parent.MouseButton1Down:Connect(function()
+		if frame.Visible == false then
+			frame.Visible = true
+		else frame.Visible = false
+		end
+	end)
+end
+coroutine.wrap(TKNNO_fake_script)()
+local function OTDUBN_fake_script() -- CloseMain_2.LocalScript 
+	local script = Instance.new('LocalScript', CloseMain_2)
+
+	local frame = script.Parent.Parent.Parent.Random
+	local open = true
+	
+	script.Parent.MouseButton1Down:Connect(function()
+		if frame.Visible == false then
+			frame.Visible = true
+		else frame.Visible = false
+		end
+	end)
+end
+coroutine.wrap(OTDUBN_fake_script)()
+local function JPBBPK_fake_script() -- TitanWarfare.LocalScript 
+	local script = Instance.new('LocalScript', TitanWarfare)
+
+	local frame = script.Parent.Parent.Parent.DaHood
+	local open = true
+	
+	script.Parent.MouseButton1Down:Connect(function()
+		if frame.Visible == false then
+			frame.Visible = true
+		else frame.Visible = false
+		end
+	end)
+end
+coroutine.wrap(JPBBPK_fake_script)()
+local function QOBPIAZ_fake_script() -- PhantomForces.LocalScript 
+	local script = Instance.new('LocalScript', PhantomForces)
+
+	local frame = script.Parent.Parent.Parent.DaHood
+	local open = true
+	
+	script.Parent.MouseButton1Down:Connect(function()
+		if frame.Visible == false then
+			frame.Visible = true
+		else frame.Visible = false
+		end
+	end)
+end
+coroutine.wrap(QOBPIAZ_fake_script)()
+local function YLGIGJ_fake_script() -- Bedwars.LocalScript 
+	local script = Instance.new('LocalScript', Bedwars)
+
+	local frame = script.Parent.Parent.Parent.DaHood
+	local open = true
+	
+	script.Parent.MouseButton1Down:Connect(function()
+		if frame.Visible == false then
+			frame.Visible = true
+		else frame.Visible = false
+		end
+	end)
+end
+coroutine.wrap(YLGIGJ_fake_script)()
+local function GGOF_fake_script() -- Infiniteyield.LocalScript 
+	local script = Instance.new('LocalScript', Infiniteyield)
+
+	local frame = script.Parent.Parent.Parent.DaHood
+	local open = true
+	
+	script.Parent.MouseButton1Down:Connect(function()
+		if frame.Visible == false then
+			frame.Visible = true
+		else frame.Visible = false
+		end
+	end)
+end
+coroutine.wrap(GGOF_fake_script)()
+local function RVWKJ_fake_script() -- Arsenal.LocalScript 
+	local script = Instance.new('LocalScript', Arsenal)
+
+	local frame = script.Parent.Parent.Parent.DaHood
+	local open = true
+	
+	script.Parent.MouseButton1Down:Connect(function()
+		if frame.Visible == false then
+			frame.Visible = true
+		else frame.Visible = false
+		end
+	end)
+end
+coroutine.wrap(RVWKJ_fake_script)()
+local function LSVVO_fake_script() -- Murdermystery2.LocalScript 
+	local script = Instance.new('LocalScript', Murdermystery2)
+
+	local frame = script.Parent.Parent.Parent.DaHood
+	local open = true
+	
+	script.Parent.MouseButton1Down:Connect(function()
+		if frame.Visible == false then
+			frame.Visible = true
+		else frame.Visible = false
+		end
+	end)
+end
+coroutine.wrap(LSVVO_fake_script)()
